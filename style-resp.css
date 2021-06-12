@@ -1,0 +1,262 @@
+@media (max-width: 1200px){
+
+    .banner-title .title h1{
+        font-size: 4rem;
+    }
+
+    .nav-links .logo{
+        font-size: 1.2rem;
+    }
+
+    .banner-title .title p{
+        font-size: .9rem;
+    }
+
+    .banner-title .title h6{
+        color: rgb(243, 74, 23);
+        font-size: .8rem;
+        left: -34%;
+        
+    }
+    .nav-links li a{
+        display: none;
+    }
+
+    .social-links i{
+        display: none;
+    }
+
+    .social-links .menu{
+        position: relative;
+        display: flex;
+        color: #fff;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
+
+}
+
+@media (max-width: 977px) {
+
+    .nav img{
+        /* height: 100%; */
+        width: 130%;
+    }
+    
+    .banner-title .btn{
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 758px){
+
+    .nav{
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .nav img{
+        /* height: 100%; */
+        width: 200%;
+    }
+
+
+    .banner-title .title h1{
+        font-size: 3.2rem;
+    }
+
+    .banner-title .title p{
+        margin: 0 10% 0 2%;
+        left: 10%;
+    }
+
+    .banner-title .title h6{
+        color: rgb(243, 74, 23);
+        font-size: .6rem;
+        left: -26%;
+        margin-bottom: 15px;
+        
+    }
+
+    .banner-title .btn{
+        padding: 10px 20px;
+        font-size: .7rem;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 500px){
+
+    body{
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .row{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .col-lg-6, .col-lg-5, .col-lg-4, .col-lg-3{
+        height: 100%;
+        width: 100%;
+        /* margin: 0 auto; */
+    }
+
+    .nav{
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .nav-links .logo{
+        display: flex;
+        margin-left: 30px;
+    }
+
+    .social-links .menu{
+        margin-right: 30px;
+    }
+
+    .nav img{
+        /* height: 100%; */
+        width: 300%;
+    }
+
+    .menus{
+        width: 100%;
+        height: 100%;
+    }
+
+    /*************** Our Story **************/
+    
+    .our-story{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .our-story .container{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .our-story .container .row{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .our-story .container .row .col-lg-6{
+        width: 100%;
+        height: 100%;
+        margin: 20px 0;
+    }
+
+    .our-story .container .row .col-lg-6 h2{
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+    
+    /********* Special-foos *********/
+
+    .menus .menu-bx .menu-img{
+        margin: 10px 20px;
+    }
+
+    .menu-list{
+        width: 100%;
+        height: 100%;
+    }
+
+    .menu-list .lists{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .menu-list .foods-bx{
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+
+    .menu-list .lists, .foods-bx, .tags{
+        height: 100%;
+        width: 100%;
+    }
+
+    /************ chef ***********/
+    
+    .chef{
+        width: 100%;
+        height: 100%;
+    }
+
+    .chef .chef-info{
+        position: relative;
+    }
+    
+    
+    .chef .chef-img img{
+        position: relative;
+        width: 100%;
+        display: none;
+    }
+    
+    .testimonials{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .blogs{
+        width: 100%;
+        height: 100%;
+        padding: 30px 0;
+    }
+    
+    .Contact{
+        width: 100%;
+        height: 100%;
+    }
+
+    .Contact .map img{
+        position: absolute;
+        width: 300px;
+    }    
+
+    .form form input{
+        position: relative;
+        width: 150%;
+    }
+    
+    .form form h3{
+        position: relative;
+        margin-bottom: 20px;
+        left: 0;
+    }
+
+    .form form button{
+        position: relative;
+        margin-top: 10px;
+        right: 0;
+        cursor: pointer;
+    }
+    
+    .form form textarea{
+        position: relative;
+        width: 150%;
+    }
+
+    footer{
+        width: 100%;
+        height: 100%;
+    }
+
+}
