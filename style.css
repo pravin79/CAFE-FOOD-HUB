@@ -877,7 +877,7 @@ footer .copyright p{
 
     .menu .img-bx .info-bx p {
         margin: 0;
-        font-size: .7em;
+        font-size: .8em;
     }
 
     .tab-menu .container {
@@ -961,6 +961,14 @@ footer .copyright p{
 
     .contact .cont-bx form textarea {
         width: 90%;
+    }
+
+    .menu{
+        padding: 0;
+    }
+
+    .menu .img-bx .info-bx {
+        padding: 5px 10px;
     }
 
 }
