@@ -527,38 +527,46 @@ header.sticky .menu{
 
 .contact{
     position: relative;
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 80vh;
     background: rgba(241, 241, 241, 0.5);
 }
 
-.contact .container{
-    display: flex;
-}
-
 .contact .map-bx{
-    position: relative;
-    width: 50%;
-    margin: auto auto;
+    margin: auto 0px;
+    overflow:hidden;
+    /* padding-bottom:56.25%; */
+    position:relative;
+    /* height:0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /* background: #333; */
+    padding: 10px 40px;
 }
 
-.contact .map-bx .map{
-    position: relative;
+.contact .map-bx map{
+    /* left:0;
+    top:0; */
+    /* height:100%; */
+    width:100%;
+    margin: 0 auto;
     display: flex;
-    width: 100%;
+    position:relative;
 }
 
 .contact .cont-bx{
     position: relative;
-    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background: #fff;
-    height: 450px;
+    /* height: 450px; */
     padding: 40px 0;
     box-shadow: 0 5px 10px rgba(0,0,0,0.5);
 }
@@ -589,14 +597,9 @@ header.sticky .menu{
     outline: none;
     border: none;
     border: 2px solid rgb(241, 28, 74);
-    /* background: linear-gradient(to right, rgba(241, 28, 74, 0.719) 0%, rgba(85, 28, 241, 0.712) 100%); */
-    /* background: rgb(221, 221, 221); */
-    /* color: #fff; */
+    
 }
 
-.contact .cont-bx form input::placeholder{
-    /* color: #fff; */
-}
 
 .contact .cont-bx form textarea{
     position: relative;
@@ -606,9 +609,7 @@ header.sticky .menu{
     outline: none;
     border: none;
     border: 2px solid rgb(241, 28, 74);
-    /* background: linear-gradient(to right, rgba(241, 28, 74, 0.719) 0%, rgba(85, 28, 241, 0.712) 100%); */
-    /* background: rgb(221, 221, 221); */
-    /* color: #fff; */
+    
 }
 
 .contact .cont-bx form button{
@@ -822,6 +823,15 @@ footer .copyright p{
         margin: 10px 0;
     }
 
+    .contact{
+        height: 100%;
+        padding: 30px 0;
+    }
+
+    .contact .col-lg-6{
+        margin: 20px 0;
+    }
+
 }
 
 @media (max-width: 768px){
@@ -944,4 +954,13 @@ footer .copyright p{
     footer .copyright p{
         font-size: .6em;
     }
+
+    .contact .cont-bx form input {
+        width: 90%;
+    }
+
+    .contact .cont-bx form textarea {
+        width: 90%;
+    }
+
 }
