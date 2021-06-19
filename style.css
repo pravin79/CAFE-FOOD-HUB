@@ -73,6 +73,7 @@ header .menu{
     display: none;
     color: #fff;
     font-size: 25px;
+    z-index: 10000;
 }
 
 header.sticky .menu{

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -27,22 +28,22 @@
 
     <div class="container-fluid banner">
         <div class="title-bx">
-            <h1>Cafe Food Hub<span class="dote">.</span></h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus excepturi blanditiis aperiam tempore optio illum dolorem officia quo expedita neque.</p>
-            <a href="#">Quick bite</a>
+            <h1 data-aos="zoom-in" data-aos-duration="1000">Cafe Food Hub<span class="dote">.</span></h1>
+            <p data-aos="fade-up" data-aos-duration="2000">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus excepturi blanditiis aperiam tempore optio illum dolorem officia quo expedita neque.</p>
+            <a href="#" data-aos="fade-up" data-aos-duration="3000">Quick bite</a>
         </div>
     </div>
 
     <section class="container-fluid about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 info-bx">
+                <div class="col-lg-6 info-bx" data-aos="fade-right" data-aos-duration="1000">
                     <h2>About Us</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur praesentium quo repudiandae dolore blanditiis a molestias. Laudantium, quibusdam eaque odit ea, animi corporis dolorem totam rerum dolorum nam quidem? Voluptate aliquid, expedita sunt maiores ducimus modi. Esse totam cum nulla!</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam similique consequatur autem excepturi cum, amet quia suscipit sapiente fugiat praesentium.</p>
                     <a href="#">Read More</a>
                 </div>
-                <div class="col-lg-6 img-bx">
+                <div class="col-lg-6 img-bx" data-aos="fade-left" data-aos-duration="2000">
                     <img src="assets/imgs/about-img.jpg" alt="">
                 </div>
             </div>
@@ -52,7 +53,7 @@
     <section class="container-fluid menu">
         <h2>Cafe Food Hub Special</h2>
         <div class="row">
-            <div class="col-lg-4 col-md-6 img-bx">
+            <div class="col-lg-4 col-md-6 img-bx" data-aos="zoom-in-down" data-aos-duration="2000">
                 <img src="assets/imgs/menu1.jpg" alt="">
                 <div class="info-bx">
                     <div class="title">
@@ -68,7 +69,8 @@
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, voluptates.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 img-bx"><img src="assets/imgs/menu2.jpg" alt="">
+            <div class="col-lg-4 col-md-6 img-bx" data-aos="zoom-in-down" data-aos-duration="2000">
+                <img src="assets/imgs/menu2.jpg" alt="">
             <div class="info-bx">
                     <div class="title">
                         <h4>Hot Dog</h4>
@@ -83,7 +85,8 @@
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, voluptates.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 img-bx"><img src="assets/imgs/menu3.jpg" alt="">
+            <div class="col-lg-4 col-md-6 img-bx" data-aos="zoom-in-down" data-aos-duration="2000">
+                <img src="assets/imgs/menu3.jpg" alt="">
             <div class="info-bx">
                     <div class="title">
                         <h4>Waffle</h4>
@@ -98,7 +101,8 @@
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, voluptates.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 img-bx"><img src="assets/imgs/menu4.jpg" alt="">
+            <div class="col-lg-4 col-md-6 img-bx" data-aos="zoom-in-down" data-aos-duration="2000">
+                <img src="assets/imgs/menu4.jpg" alt="">
             <div class="info-bx">
                     <div class="title">
                         <h4>Sandwich</h4>
@@ -113,7 +117,8 @@
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, voluptates.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 img-bx"><img src="assets/imgs/menu5.jpg" alt="">
+            <div class="col-lg-4 col-md-6 img-bx" data-aos="zoom-in-down" data-aos-duration="2000">
+                <img src="assets/imgs/menu5.jpg" alt="">
             <div class="info-bx">
                     <div class="title">
                         <h4>Fried Balls</h4>
@@ -128,7 +133,8 @@
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, voluptates.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 img-bx"><img src="assets/imgs/about-img.jpg" alt="">
+            <div class="col-lg-4 col-md-6 img-bx" data-aos="zoom-in-down" data-aos-duration="2000">
+                <img src="assets/imgs/about-img.jpg" alt="">
             <div class="info-bx">
                     <div class="title">
                         <h4>Fruit Salad</h4>
@@ -166,17 +172,28 @@
             <div id="sandwich" class="tabcontent">
                 <div class="row-bx">
                     <div class="col-50 items-bx">
-                        <li><p>Bread Butter</p> <span><strong><sup>₹</sup> 25</strong></span></li>
-                        <li><p>Jam Bread</p> <span> <strong><sup>₹</sup> 30</strong></span></li>
-                        <li><p>Veg Sandwich</p> <span><strong><sup>₹</sup> 50</strong></span></li>
-                        <li><p>Veg Cheese Sandwich</p> <span><strong><sup>₹</sup> 55</strong></span></li>
-                        <li><p>Cheese Tomato Chilli Sandwich</p> <span><strong><sup>₹</sup> 65</strong></span></li>
-                        <li><p>Pizza Toast Sandwich</p> <span><strong><sup>₹</sup> 65</strong></span></li>
-                        <li><p>Tandoori Panner Sandwich</p> <span><strong><sup>₹</sup> 75</strong></span></li>
-                        <li><p>Spinach Corn Cheese Sandwich</p> <span><strong><sup>₹</sup> 149</strong></span></li>
-                        <li><p>Masala Cheese Club Sandwich</p> <span><strong><sup>₹</sup> 149</strong></span></li>
-                        <li><p>Green Sandwich</p> <span><strong><sup>₹</sup> 149</strong></span></li>
-                        <li><p>Food Hub special Sandwich</p> <span><strong><sup>₹</sup> 165</strong></span></li>
+                        <li  data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Bread Butter</p> <span><strong><sup>₹</sup> 25</strong></span></li>
+
+                        
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Jam Bread</p> <span> <strong><sup>₹</sup> 30</strong></span></li>
+                        
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Veg Sandwich</p> <span><strong><sup>₹</sup> 50</strong></span></li>
+                        
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Veg Cheese Sandwich</p> <span><strong><sup>₹</sup> 55</strong></span></li>
+                        
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Cheese Tomato Chilli Sandwich</p> <span><strong><sup>₹</sup> 65</strong></span></li>
+                        
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Pizza Toast Sandwich</p> <span><strong><sup>₹</sup> 65</strong></span></li>
+                        
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Tandoori Panner Sandwich</p> <span><strong><sup>₹</sup> 75</strong></span></li>
+                        
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Spinach Corn Cheese Sandwich</p> <span><strong><sup>₹</sup> 149</strong></span></li>
+                        
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Masala Cheese Club Sandwich</p> <span><strong><sup>₹</sup> 149</strong></span></li>
+                        
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Green Sandwich</p> <span><strong><sup>₹</sup> 149</strong></span></li>
+                        
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Food Hub special Sandwich</p> <span><strong><sup>₹</sup> 165</strong></span></li>
                     </div>
                     <div class="col-50 img-bx">
                         <h2>Sandwich</h2>
@@ -190,11 +207,15 @@
             <div id="burger" class="tabcontent">
                 <div class="row-bx">
                     <div class="col-50 items-bx">
-                        <li><p>Aloo Tikki Burger</p> <span><strong><sup>₹</sup> 30</strong></span></li>
-                        <li><p>Veg. Cheese Mayo Burger</p> <span> <strong><sup>₹</sup> 40</strong></span></li>
-                        <li><p>Chilli cottage Cheese Burger</p> <span><strong><sup>₹</sup> 55</strong></span></li>
-                        <li><p>Veggie Lover Burger</p> <span><strong><sup>₹</sup> 45</strong></span></li>
-                        <li><p>Food Hub special Burger</p> <span><strong><sup>₹</sup> 125</strong></span></li>
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Aloo Tikki Burger</p> <span><strong><sup>₹</sup> 30</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Veg. Cheese Mayo Burger</p> <span> <strong><sup>₹</sup> 40</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Chilli cottage Cheese Burger</p> <span><strong><sup>₹</sup> 55</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Veggie Lover Burger</p> <span><strong><sup>₹</sup> 45</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Food Hub special Burger</p> <span><strong><sup>₹</sup> 125</strong></span></li>
                     </div>
                     <div class="col-50 img-bx">
                         <h2>Burger</h2>
@@ -208,9 +229,11 @@
             <div id="garlic" class="tabcontent">
                 <div class="row-bx">
                     <div class="col-50 items-bx">
-                        <li><p>Normal Garlic Bread</p> <span><strong><sup>₹</sup> 50</strong></span></li>
-                        <li><p>Cheese Garlic Bread</p> <span> <strong><sup>₹</sup> 85</strong></span></li>
-                        <li><p>Masala Garlic Bread</p> <span><strong><sup>₹</sup> 99</strong></span></li>
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Normal Garlic Bread</p> <span><strong><sup>₹</sup> 50</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Cheese Garlic Bread</p> <span> <strong><sup>₹</sup> 85</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Masala Garlic Bread</p> <span><strong><sup>₹</sup> 99</strong></span></li>
                     </div>
                     <div class="col-50 img-bx">
                         <h2>Garlic Bread</h2>
@@ -224,8 +247,9 @@
             <div id="pasta" class="tabcontent">
                 <div class="row-bx">
                     <div class="col-50 items-bx">
-                        <li><p>Red Sauce Pasta</p> <span><strong><sup>₹</sup> 100</strong></span></li>
-                        <li><p>Pizza Sauce Pasta</p> <span> <strong><sup>₹</sup> 115</strong></span></li>
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Red Sauce Pasta</p> <span><strong><sup>₹</sup> 100</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Pizza Sauce Pasta</p> <span> <strong><sup>₹</sup> 115</strong></span></li>
                     </div>
                     <div class="col-50 img-bx">
                         <h2>Pasta</h2>
@@ -254,11 +278,15 @@
             <div id="mojito" class="tabcontent">
                 <div class="row-bx">
                     <div class="col-50 items-bx">
-                        <li><p>Mint Mojito</p> <span><strong><sup>₹</sup>  85</strong></span></li>
-                        <li><p>Green Apple Mojito</p> <span> <strong><sup>₹</sup> 100</strong></span></li>
-                        <li><p>Pan Mojito</p> <span> <strong><sup>₹</sup> 100</strong></span></li>
-                        <li><p>Blue Mojito</p> <span> <strong><sup>₹</sup> 100</strong></span></li>
-                        <li><p>Straberry Mojito</p> <span> <strong><sup>₹</sup> 100</strong></span></li>
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Mint Mojito</p> <span><strong><sup>₹</sup>  85</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Green Apple Mojito</p> <span> <strong><sup>₹</sup> 100</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Pan Mojito</p> <span> <strong><sup>₹</sup> 100</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Blue Mojito</p> <span> <strong><sup>₹</sup> 100</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Straberry Mojito</p> <span> <strong><sup>₹</sup> 100</strong></span></li>
                     </div>
                     <div class="col-50 img-bx">
                         <h2>Mojito</h2>
@@ -272,11 +300,15 @@
             <div id="desserts" class="tabcontent">
                 <div class="row-bx">
                     <div class="col-50 items-bx">
-                        <li><p>Brownie with ice-cream</p> <span><strong><sup>₹</sup>  90</strong></span></li>
-                        <li><p>Sizzlers Brownie</p> <span> <strong><sup>₹</sup> 115</strong></span></li>
-                        <li><p>Ecstassy Sundae's</p> <span> <strong><sup>₹</sup> 99</strong></span></li>
-                        <li><p>Chocolate Sandwich</p> <span> <strong><sup>₹</sup> 80</strong></span></li>
-                        <li><p>Chocolate Bomb</p> <span> <strong><sup>₹</sup> 150</strong></span></li>
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Brownie with ice-cream</p> <span><strong><sup>₹</sup>  90</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Sizzlers Brownie</p> <span> <strong><sup>₹</sup> 115</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Ecstassy Sundae's</p> <span> <strong><sup>₹</sup> 99</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Chocolate Sandwich</p> <span> <strong><sup>₹</sup> 80</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Chocolate Bomb</p> <span> <strong><sup>₹</sup> 150</strong></span></li>
                     </div>
                     <div class="col-50 img-bx">
                         <h2>Desserts</h2>
@@ -290,11 +322,15 @@
             <div id="pizza" class="tabcontent">
                 <div class="row-bx">
                     <div class="col-50 items-bx">
-                        <li><p>Classic Margherita Pizza</p> <span><strong><sup>₹</sup>  45</strong></span></li>
-                        <li><p>Veg Supreme Pizza</p> <span> <strong><sup>₹</sup> 70</strong></span></li>
-                        <li><p>Tandoori Pizza</p> <span> <strong><sup>₹</sup> 90</strong></span></li>
-                        <li><p>Veg Spicy Pizza</p> <span> <strong><sup>₹</sup> 95</strong></span></li>
-                        <li><p>Food Hub special Pizza</p> <span> <strong><sup>₹</sup> 125</strong></span></li>
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Classic Margherita Pizza</p> <span><strong><sup>₹</sup>  45</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Veg Supreme Pizza</p> <span> <strong><sup>₹</sup> 70</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Tandoori Pizza</p> <span> <strong><sup>₹</sup> 90</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Veg Spicy Pizza</p> <span> <strong><sup>₹</sup> 95</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Food Hub special Pizza</p> <span> <strong><sup>₹</sup> 125</strong></span></li>
                     </div>
                     <div class="col-50 img-bx">
                         <h2>Pizza</h2>
@@ -308,10 +344,14 @@
             <div id="smoothies" class="tabcontent">
                 <div class="row-bx">
                     <div class="col-50 items-bx">
-                        <li><p>Mango</p> <span><strong><sup>₹</sup>  100</strong></span></li>
-                        <li><p>Straberry</p> <span> <strong><sup>₹</sup> 100</strong></span></li>
-                        <li><p>Pineapple</p> <span> <strong><sup>₹</sup> 100</strong></span></li>
-                        <li><p>Litchi</p> <span> <strong><sup>₹</sup> 100</strong></span></li>
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Mango</p> <span><strong><sup>₹</sup>  100</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" 
+                        data-aos-easing="ease-in-sine"><p>Straberry</p> <span> <strong><sup>₹</sup> 100</strong></span></li>
+                         data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Pineapple</p> <span> <strong><sup>₹</sup> 100</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Litchi</p> <span> <strong><sup>₹</sup> 100</strong></span></li>
                     </div>
                     <div class="col-50 img-bx">
                         <h2>Smoothies</h2>
@@ -325,11 +365,15 @@
             <div id="shake" class="tabcontent">
                 <div class="row-bx">
                     <div class="col-50 items-bx">
-                        <li><p>Chocolate Shake</p> <span><strong><sup>₹</sup>  100</strong></span></li>
-                        <li><p>Kitak Shake</p> <span> <strong><sup>₹</sup> 120</strong></span></li>
-                        <li><p>Oreo Shake</p> <span> <strong><sup>₹</sup> 115</strong></span></li>
-                        <li><p>Brownie Shake</p> <span> <strong><sup>₹</sup> 135</strong></span></li>
-                        <li><p>Snickers Shake</p> <span> <strong><sup>₹</sup> 135</strong></span></li>
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Chocolate Shake</p> <span><strong><sup>₹</sup>  100</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Kitak Shake</p> <span> <strong><sup>₹</sup> 120</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Oreo Shake</p> <span> <strong><sup>₹</sup> 115</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Brownie Shake</p> <span> <strong><sup>₹</sup> 135</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Snickers Shake</p> <span> <strong><sup>₹</sup> 135</strong></span></li>
                     </div>
                     <div class="col-50 img-bx">
                         <h2>Shake</h2>
@@ -343,12 +387,17 @@
             <div id="starter" class="tabcontent">
                 <div class="row-bx">
                     <div class="col-50 items-bx">
-                        <li><p>Frech Fries</p> <span><strong><sup>₹</sup>  50</strong></span></li>
-                        <li><p>Cheese Fries</p> <span> <strong><sup>₹</sup> 70</strong></span></li>
-                        <li><p>Periperi Fries</p> <span> <strong><sup>₹</sup> 85</strong></span></li>
-                        <li><p>Cheese Ball(10 pc.)</p> <span> <strong><sup>₹</sup> 90</strong></span></li>
-                        <li><p>Smiley(8 pc.)</p> <span> <strong><sup>₹</sup> 70</strong></span></li>
-                        <li><p>Potato Wedges</p> <span> <strong><sup>₹</sup> 70</strong></span></li>
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Frech Fries</p> <span><strong><sup>₹</sup>  50</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Cheese Fries</p> <span> <strong><sup>₹</sup> 70</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Periperi Fries</p> <span> <strong><sup>₹</sup> 85</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Cheese Ball(10 pc.)</p> <span> <strong><sup>₹</sup> 90</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Smiley(8 pc.)</p> <span> <strong><sup>₹</sup> 70</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Potato Wedges</p> <span> <strong><sup>₹</sup> 70</strong></span></li>
                     </div>
                     <div class="col-50 img-bx">
                         <h2>Starter's</h2>
@@ -362,9 +411,11 @@
             <div id="ice-tea" class="tabcontent">
                 <div class="row-bx">
                     <div class="col-50 items-bx">
-                        <li><p>Lemon Ice Tea</p> <span><strong><sup>₹</sup>  80</strong></span></li>
-                        <li><p>Peach Ice Tea</p> <span> <strong><sup>₹</sup> 80</strong></span></li>
-                        <li><p>Straberry Ice Tea</p> <span> <strong><sup>₹</sup> 80</strong></span></li>
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Lemon Ice Tea</p> <span><strong><sup>₹</sup>  80</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Peach Ice Tea</p> <span> <strong><sup>₹</sup> 80</strong></span></li>
+                         data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Straberry Ice Tea</p> <span> <strong><sup>₹</sup> 80</strong></span></li>
                     </div>
                     <div class="col-50 img-bx">
                         <h2>Ice Tea</h2>
@@ -378,10 +429,13 @@
             <div id="cold-coffee" class="tabcontent">
                 <div class="row-bx">
                     <div class="col-50 items-bx">
-                        <li><p>Coffee Frappe</p> <span><strong><sup>₹</sup>  60</strong></span></li>
-                        <li><p>Cold Coffee ice-cream</p> <span> <strong><sup>₹</sup> 80</strong></span></li>
-                        <li><p>Irish Coffee</p> <span> <strong><sup>₹</sup> 90</strong></span></li>
-                        <li><p>Almond Coffee</p> <span> <strong><sup>₹</sup> 100</strong></span></li>
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Coffee Frappe</p> <span><strong><sup>₹</sup>  60</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Cold Coffee ice-cream</p> <span> <strong><sup>₹</sup> 80</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Irish Coffee</p> <span> <strong><sup>₹</sup> 90</strong></span></li>
+
+                        <li data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine"><p>Almond Coffee</p> <span> <strong><sup>₹</sup> 100</strong></span></li>
                     </div>
                     <div class="col-50 img-bx">
                         <h2>Cold Coffee</h2>
@@ -398,21 +452,21 @@
         <h2>What Peaople said about us</h2>
         <div class="container">
             <div class="row-bx row">
-                <div class="col-lg-3 col-sm-4 test-bx">
+                <div class="col-lg-3 col-sm-4 test-bx" data-aos="fade-right" data-aos-duration="2000">
                     <div class="img-bx">
                         <img src="assets/imgs/testimonial1.jpg" alt="">
                     </div>
                     <p><em>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti soluta ex sed cupiditate ipsam</em></p>
                     <h6>-john wick</h6>
                 </div>
-                <div class="col-lg-3 col-sm-4 test-bx">
+                <div class="col-lg-3 col-sm-4 test-bx" data-aos="fade-up" data-aos-duration="2000">
                     <div class="img-bx">
                         <img src="assets/imgs/testimonial2.jpg" alt="">
                     </div>
                     <p><em>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti soluta ex sed cupiditate ipsam</em></p>
                     <h6>-rachel green</h6>
                 </div>
-                <div class="col-lg-3 col-sm-4 test-bx">
+                <div class="col-lg-3 col-sm-4 test-bx" data-aos="fade-left" data-aos-duration="2000">
                     <div class="img-bx">
                         <img src="assets/imgs/testimonial3.jpg" alt="">
                     </div>
@@ -426,10 +480,10 @@
     <section class="container-fluid about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 img-bx">
+                <div class="col-lg-6 img-bx" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="2000">
                     <img src="assets/imgs/chef.jpg" alt="">
                 </div>
-                <div class="col-lg-6 info-bx">
+                <div class="col-lg-6 info-bx" data-aos="fade-down" data-aos-anchor-placement="top-center" data-aos-duration="2000">
                     <h2>Our Chef</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur praesentium quo repudiandae dolore blanditiis a molestias. Laudantium, quibusdam eaque odit ea, animi corporis dolorem totam rerum dolorum nam quidem? Voluptate aliquid, expedita sunt maiores ducimus modi. Esse totam cum nulla!</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam similique consequatur autem excepturi cum, amet quia suscipit sapiente fugiat praesentium.</p>
@@ -443,7 +497,7 @@
     <section class="container-fluid contact">
         <div class="container">
            <div class="row">
-            <div class="col-lg-6 cont-bx">
+            <div class="col-lg-6 cont-bx" data-aos="fade-down" data-aos-anchor-placement="top-center" data-aos-duration="2000">
                 <h2>Contact Us</h2>
                 <form action="">
                     <input type="text" placeholder="Firstname">
@@ -452,7 +506,7 @@
                     <button>Send</button>
                 </form>
             </div>
-            <div class="col-lg-6 map-bx">
+            <div class="col-lg-6 map-bx" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="2000">
                 <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1561.2502325536996!2d72.92481253317086!3d20.374318458519483!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3e5ab9f7df88d6c2!2sCafe%20Food%20Hub%20-%20Quick%20Bite!5e0!3m2!1sen!2sin!4v1623914193345!5m2!1sen!2sin" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
             </div>
@@ -540,5 +594,10 @@
         // Get the element with id="defaultOpen" and click on it
         document.getElementById("defaultOpen").click();
     </script>
+
+    <script src="node_modules/aos/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
