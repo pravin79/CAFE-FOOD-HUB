@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T08:44:55.223Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="KgO67FwB_rpouGw28Jko" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-02T08:45:14.832Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="2H01Z3I9wL_CVvoWt8i2" version="17.5.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="762" dy="992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-78" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -143,7 +143,7 @@
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FILZVSBVhf7IRGcR_T5z-61" value="# auth_schema_json: json" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="FILZVSBVhf7IRGcR_T5z-60" vertex="1">
+        <mxCell id="FILZVSBVhf7IRGcR_T5z-61" value="# auth_schema_json: string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="FILZVSBVhf7IRGcR_T5z-60" vertex="1">
           <mxGeometry y="26" width="199" height="26" as="geometry" />
         </mxCell>
         <mxCell id="FILZVSBVhf7IRGcR_T5z-62" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="FILZVSBVhf7IRGcR_T5z-60" vertex="1">
@@ -166,7 +166,7 @@
         <mxCell id="FILZVSBVhf7IRGcR_T5z-69" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="FILZVSBVhf7IRGcR_T5z-64" vertex="1">
           <mxGeometry y="78" width="370" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="FILZVSBVhf7IRGcR_T5z-79" value="+ do_signin_with_valid_user(username, password): json" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="FILZVSBVhf7IRGcR_T5z-64" vertex="1">
+        <mxCell id="FILZVSBVhf7IRGcR_T5z-79" value="+ do_signin_with_valid_user(username, password): string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="FILZVSBVhf7IRGcR_T5z-64" vertex="1">
           <mxGeometry y="86" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="FILZVSBVhf7IRGcR_T5z-80" value="+ validate_schema(expected_response, actual_response): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="FILZVSBVhf7IRGcR_T5z-64" vertex="1">
